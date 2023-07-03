@@ -20,6 +20,10 @@ if (typeof QUICKNODE_RPC_URL === 'undefined') {
  * These "Safe" URLs are listed first, followed by other fallback URLs, which are taken from chainlist.org.
  */
 export const FALLBACK_URLS = {
+  [SupportedChainId.MANTLE]: [
+    // "Safe" URLs
+    'https://rpc.ankr.com/mantle_testnet',
+  ],
   [SupportedChainId.MAINNET]: [
     // "Safe" URLs
     'https://api.mycryptoapi.com/eth',
@@ -107,6 +111,10 @@ export const FALLBACK_URLS = {
  * These are the URLs used by the interface when there is not another available source of chain data.
  */
 export const RPC_URLS = {
+  [SupportedChainId.MANTLE]: [
+    `https://rpc.ankr.com/mantle_testnet`,
+    ...FALLBACK_URLS[SupportedChainId.MANTLE],
+  ],
   [SupportedChainId.MAINNET]: [
     `https://mainnet.infura.io/v3/${INFURA_KEY}`,
     ...FALLBACK_URLS[SupportedChainId.MAINNET],

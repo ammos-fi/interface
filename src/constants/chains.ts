@@ -7,6 +7,7 @@
  * Because this is not explicitly derived from @uniswap/sdk-core, there is a unit test to enforce conformance.
  */
 export enum SupportedChainId {
+  MANTLE = 5001,
   MAINNET = 1,
   GOERLI = 5,
   SEPOLIA = 11155111,
@@ -27,6 +28,7 @@ export enum SupportedChainId {
 }
 
 export const UniWalletSupportedChains = [
+  SupportedChainId.MANTLE,
   SupportedChainId.MAINNET,
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.OPTIMISM,
@@ -34,6 +36,7 @@ export const UniWalletSupportedChains = [
 ]
 
 export const CHAIN_IDS_TO_NAMES = {
+  [SupportedChainId.MANTLE]: 'mantle',
   [SupportedChainId.MAINNET]: 'mainnet',
   [SupportedChainId.GOERLI]: 'goerli',
   [SupportedChainId.SEPOLIA]: 'sepolia',
@@ -60,6 +63,7 @@ export function isSupportedChain(chainId: number | null | undefined): chainId is
 }
 
 export const SUPPORTED_GAS_ESTIMATE_CHAIN_IDS = [
+  SupportedChainId.MANTLE,
   SupportedChainId.MAINNET,
   SupportedChainId.POLYGON,
   SupportedChainId.CELO,
@@ -110,6 +114,7 @@ export type SupportedL1ChainId = typeof L1_CHAIN_IDS[number]
  * The expectation is that all of these networks have immediate transaction confirmation.
  */
 export const L2_CHAIN_IDS = [
+  SupportedChainId.MANTLE,
   SupportedChainId.ARBITRUM_ONE,
   SupportedChainId.ARBITRUM_GOERLI,
   SupportedChainId.OPTIMISM,

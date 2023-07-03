@@ -1,7 +1,7 @@
 {
   "name": "@uniswap/interface",
   "version": "1.1.0",
-  "description": "Uniswap Interface",
+  "description": "Ammos Interface",
   "homepage": ".",
   "license": "GPL-3.0-or-later",
   "scripts": {
@@ -207,6 +207,7 @@
     "d3": "^7.6.1",
     "ethers": "^5.7.2",
     "focus-visible": "^5.2.0",
+    "framer-motion": "^10.12.18",
     "get-graphql-schema": "^2.1.2",
     "graphql": "^16.5.0",
     "graphql-request": "^3.4.0",
@@ -263,5 +264,10 @@
     "npm": "please-use-yarn",
     "node": "18.x",
     "yarn": ">=1.22"
+  },
+  "prettier": {
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "semi": true
   }
 }

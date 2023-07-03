@@ -104,8 +104,8 @@ export const SmallButtonPrimary = styled(ButtonPrimary)`
 `
 
 const BaseButtonLight = styled(BaseButton)`
-  background-color: ${({ theme }) => theme.accentActionSoft};
-  color: ${({ theme }) => theme.accentAction};
+  background: ${({ theme }) => theme.gradientAmmos};
+  color: ${({ theme }) => theme.textPrimary};
   font-size: 20px;
   font-weight: 600;
 

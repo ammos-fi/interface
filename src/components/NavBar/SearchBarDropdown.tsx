@@ -311,22 +311,6 @@ export const SearchBarDropdown = ({
                 isLoading={!trendingTokenData}
               />
             )}
-            {!isTokenPage && (
-              <SearchBarDropdownSection
-                hoveredIndex={hoveredIndex}
-                startingIndex={shortenedHistory.length + (isNFTPage ? 0 : trendingTokens?.length ?? 0)}
-                setHoveredIndex={setHoveredIndex}
-                toggleOpen={toggleOpen}
-                suggestions={formattedTrendingCollections as unknown as GenieCollection[]}
-                eventProperties={{
-                  suggestion_type: NavBarSearchTypes.COLLECTION_TRENDING,
-                  ...eventProperties,
-                }}
-                header={<Trans>Popular NFT collections</Trans>}
-                headerIcon={<TrendingArrow />}
-                isLoading={trendingCollectionsAreLoading}
-              />
-            )}
           </Column>
         )
 

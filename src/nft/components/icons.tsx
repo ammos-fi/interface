@@ -1,6 +1,6 @@
 import React from "react";
 import styled, { useTheme } from "styled-components/macro";
-
+import ammos_logo from "../../assets/svg/ammos_logo.svg";
 import { themeVars, vars } from "../css/sprinkles.css";
 
 // ESLint reports `fill` is missing, whereas it exists on an SVGProps type
@@ -13,36 +13,1869 @@ type SVGProps = React.SVGProps<SVGSVGElement> & {
 
 export const UniIcon = (props: SVGProps) => (
   <svg
-    {...props}
-    viewBox="0 0 40 40"
-    version="1.1"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     xmlSpace="preserve"
-    style={{ fill: "#d97706" }}
+    style={{
+      fillRule: "evenodd",
+      clipRule: "evenodd",
+      strokeLinecap: "round",
+      strokeLinejoin: "round",
+      strokeMiterlimit: 1.5,
+    }}
+    viewBox="0 0 1080 1080"
+    {...props}
   >
-    <g transform="matrix(1,0,0,1,-3664.17,-1552.45)">
-      <g id="SVG" transform="matrix(0.037037,0,0,0.037037,3621.7,1552.45)">
-        <rect
-          x="1146.67"
-          y="0"
-          width="40"
-          height="40"
-          style={{ fill: "none" }}
+    <path
+      d="M0 0h1920v1080H0z"
+      style={{
+        fill: "none",
+      }}
+      transform="scale(.5625 1)"
+    />
+    <circle
+      cx={30675.1}
+      cy={17790.8}
+      r={370.805}
+      transform="matrix(1.2952 0 0 1.29519 -39190.275 -22502.5)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#a)",
+        strokeWidth: "2.95px",
+      }}
+      transform="translate(-35834.883 -20556.51) scale(1.18581)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#b)",
+        strokeWidth: "3.08px",
+      }}
+      transform="matrix(1.13783 0 0 1.13783 -34363.174 -19703.32)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#c)",
+        strokeWidth: "3.17px",
+      }}
+      transform="matrix(1.10367 0 0 1.10367 -33315.288 -19095.83)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#d)",
+        strokeWidth: "3.27px",
+      }}
+      transform="matrix(1.07054 0 0 1.07054 -32298.886 -18506.6)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#e)",
+        strokeWidth: "3.37px",
+      }}
+      transform="translate(-31312.967 -17935.04) scale(1.0384)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#f)",
+        strokeWidth: "3.47px",
+      }}
+      transform="matrix(1.00722 0 0 1.00722 -30356.663 -17380.674)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#g)",
+        strokeWidth: "3.58px",
+      }}
+      transform="matrix(.97698 0 0 .97698 -29429.107 -16842.909)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#h)",
+        strokeWidth: "3.69px",
+      }}
+      transform="matrix(.94765 0 0 .94765 -28529.367 -16321.271)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#i)",
+        strokeWidth: "3.81px",
+      }}
+      transform="matrix(.9192 0 0 .9192 -27656.64 -15815.286)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#j)",
+        strokeWidth: "3.93px",
+      }}
+      transform="matrix(.8916 0 0 .8916 -26810.128 -15324.598)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#k)",
+        strokeWidth: "4.05px",
+      }}
+      transform="matrix(.86484 0 0 .86484 -25989.028 -14848.495)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#l)",
+        strokeWidth: "4.17px",
+      }}
+      transform="matrix(.83888 0 0 .83887 -25192.542 -14386.74)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#m)",
+        strokeWidth: "4.3px",
+      }}
+      transform="matrix(.81369 0 0 .81369 -24420.001 -13938.979)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#n)",
+        strokeWidth: "4.43px",
+      }}
+      transform="translate(-23670.607 -13504.498) scale(.78926)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#o)",
+        strokeWidth: "4.57px",
+      }}
+      transform="matrix(.76556 0 0 .76556 -22943.757 -13083.061)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#p)",
+        strokeWidth: "4.71px",
+      }}
+      transform="matrix(.74258 0 0 .74258 -22238.719 -12674.431)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#q)",
+        strokeWidth: "4.86px",
+      }}
+      transform="matrix(.72029 0 0 .72029 -21554.892 -12277.896)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#r)",
+        strokeWidth: "5.01px",
+      }}
+      transform="translate(-20891.542 -11893.362) scale(.69866)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#s)",
+        strokeWidth: "5.16px",
+      }}
+      transform="matrix(.67768 0 0 .67769 -20248.137 -11520.353)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#t)",
+        strokeWidth: "5.32px",
+      }}
+      transform="translate(-19624.008 -11158.539) scale(.65734)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#u)",
+        strokeWidth: "5.49px",
+      }}
+      transform="matrix(.6376 0 0 .6376 -19018.622 -10807.587)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#v)",
+        strokeWidth: "5.66px",
+      }}
+      transform="matrix(.61846 0 0 .61846 -18431.446 -10467.176)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#w)",
+        strokeWidth: "5.83px",
+      }}
+      transform="matrix(.5999 0 0 .5999 -17861.88 -10136.976)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#x)",
+        strokeWidth: "6.01px",
+      }}
+      transform="matrix(.58189 0 0 .58189 -17309.388 -9816.688)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#y)",
+        strokeWidth: "6.2px",
+      }}
+      transform="matrix(.56442 0 0 .56442 -16773.506 -9506.03)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#z)",
+        strokeWidth: "6.39px",
+      }}
+      transform="translate(-16253.765 -9204.692) scale(.54747)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#A)",
+        strokeWidth: "6.59px",
+      }}
+      transform="matrix(.53103 0 0 .53103 -15749.566 -8912.39)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#B)",
+        strokeWidth: "6.79px",
+      }}
+      transform="matrix(.5151 0 0 .5151 -15260.509 -8628.874)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#C)",
+        strokeWidth: "7.01px",
+      }}
+      transform="matrix(.49963 0 0 .49963 -14786.125 -8353.873)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#D)",
+        strokeWidth: "7.22px",
+      }}
+      transform="matrix(.48463 0 0 .48463 -14326.016 -8087.125)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#E)",
+        strokeWidth: "7.45px",
+      }}
+      transform="matrix(.47008 0 0 .47008 -13879.714 -7828.381)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#F)",
+        strokeWidth: "7.68px",
+      }}
+      transform="matrix(.45596 0 0 .45597 -13446.753 -7577.405)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#G)",
+        strokeWidth: "7.91px",
+      }}
+      transform="matrix(.44228 0 0 .44228 -13026.865 -7333.97)"
+    />
+    <path
+      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
+      style={{
+        fill: "none",
+        stroke: "url(#H)",
+        strokeWidth: "8.16px",
+      }}
+      transform="matrix(.429 0 0 .429 -12619.584 -7097.84)"
+    />
+    <defs>
+      <linearGradient
+        id="a"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
         />
-        <g transform="matrix(1.00406,0,0,1.00406,-7.82668,-5.53714)">
-          <g id="vva" transform="matrix(1.89359,0,0,1.89359,664.126,-334.507)">
-            <path d="M736.943,626.492L687.994,626.492L609.85,501.097L634.324,461.824L736.943,626.492ZM540,613.181L343.057,297.156L392.006,297.156L493.986,460.8L470.15,422.552L540,310.467L609.85,422.552L609.995,422.318L634.418,461.674L634.324,461.824L609.85,422.552L634.324,461.824L540,613.181ZM494.625,461.824L540,389.013L585.375,461.824L540,534.636L494.625,461.824Z" />
-          </g>
-          <g id="vva1" transform="matrix(1.89359,0,0,1.89359,664.126,-334.507)">
-            <path d="M421.277,500.976L445.7,540.332L366.219,667.872L762.73,667.872L788.517,709.252L291.483,709.252L421.277,500.976Z" />
-          </g>
-          <g id="vva2" transform="matrix(1.89359,0,0,1.89359,664.126,-334.507)">
-            <path d="M658.816,422.523L634.342,383.25L713.781,255.776L317.27,255.776L291.483,214.397L788.517,214.397L658.816,422.523Z" />
-          </g>
-        </g>
-      </g>
-    </g>
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="b"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="c"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="d"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="e"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="f"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="g"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="h"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="i"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="j"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="k"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="l"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="m"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="n"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="o"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="p"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="q"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="r"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="s"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="t"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="u"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="v"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="w"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="x"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="y"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="z"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="A"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="B"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="C"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="D"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="E"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="F"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="G"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+      <linearGradient
+        id="H"
+        x1={0}
+        x2={1}
+        y1={0}
+        y2={0}
+        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop
+          offset={0}
+          style={{
+            stopColor: "#e9d69c",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.16}
+          style={{
+            stopColor: "#db8840",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.33}
+          style={{
+            stopColor: "#d76f22",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={0.62}
+          style={{
+            stopColor: "#edf6fa",
+            stopOpacity: 1,
+          }}
+        />
+        <stop
+          offset={1}
+          style={{
+            stopColor: "#ecc384",
+            stopOpacity: 1,
+          }}
+        />
+      </linearGradient>
+    </defs>
   </svg>
 );
 

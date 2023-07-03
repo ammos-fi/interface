@@ -49,7 +49,6 @@ export default function WalletModal({ openSettings }: { openSettings: () => void
   const walletConnectV2AsDefault = useWalletConnectV2AsDefault()
   const hiddenWalletConnectTypes = [
     walletConnectV2AsDefault ? ConnectionType.WALLET_CONNECT : ConnectionType.WALLET_CONNECT_V2,
-    walletConnectV2AsDefault ? ConnectionType.UNISWAP_WALLET : ConnectionType.UNISWAP_WALLET_V2,
   ]
 
   // Keep the network connector in sync with any active user connector to prevent chain-switching on wallet disconnection.
