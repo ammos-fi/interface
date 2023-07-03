@@ -434,10 +434,10 @@ export const OP = new Token(
 
 export const MNT = new Token(
   SupportedChainId.MANTLE,
-  "0x4200000000000000000000000000000000000006", // replace with your token's contract address
-  18, // replace with your token's decimals
-  "MANTLE", // replace with your token's symbol
-  "Mantle" // replace with your token's name
+  "0x4200000000000000000000000000000000000006",
+  18,
+  "MNT",
+  "Mantle"
 );
 
 export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
@@ -447,8 +447,8 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
       SupportedChainId.MANTLE,
       "0x4200000000000000000000000000000000000006",
       18,
-      "MNT",
-      "Mantle MNT"
+      "WMNT",
+      "Wrapped MNT"
     ),
     [SupportedChainId.OPTIMISM]: new Token(
       SupportedChainId.OPTIMISM,

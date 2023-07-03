@@ -27,7 +27,6 @@ export default function SwapHeader({ autoSlippage, chainId }: { autoSlippage: Pe
         <ThemedText.SubHeader>
           <Trans>Swap</Trans>
         </ThemedText.SubHeader>
-        {fiatOnRampButtonEnabled && <SwapBuyFiatButton />}
       </HeaderButtonContainer>
       <RowFixed>
         <SettingsTab autoSlippage={autoSlippage} chainId={chainId} />
