@@ -99,7 +99,7 @@ export default function RadialGradientByChainUpdater(): null {
       default: {
         setBackground(initialStyles)
         const defaultLightGradient =
-          'radial-gradient(100% 100% at 50% 0%, rgba(255, 184, 226, 0.51) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF'
+          'radial-gradient(100% 100% at 50% 0%, #fbbf24 0%, #ea580c 100%), #FFFFFF'
         const defaultDarkGradient = 'linear-gradient(180deg, #121212 0%, #000000 100%)'
         backgroundRadialGradientElement.style.background = darkMode ? defaultDarkGradient : defaultLightGradient
       }

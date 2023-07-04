@@ -100,7 +100,7 @@ export const colors = {
   networkArbitrum: "#28A0F0",
   networkBsc: "#F0B90B",
   networkPolygonSoft: "rgba(164, 87, 255, 0.16)",
-  networkEthereumSoft: "rgba(98, 126, 234, 0.16)",
+  networkEthereumSoft: "rgba(232,180,46,0.16)",
 };
 
 type Theme = typeof darkTheme;

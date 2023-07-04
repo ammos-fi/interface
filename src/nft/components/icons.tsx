@@ -11,7 +11,7 @@ type SVGProps = React.SVGProps<SVGSVGElement> & {
   gradientId?: string;
 };
 
-export const UniIcon = (props: SVGProps) => (
+export const AmmosIcon = (props: SVGProps) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlSpace="preserve"
@@ -43,7 +43,7 @@ export const UniIcon = (props: SVGProps) => (
       style={{
         fill: "none",
         stroke: "url(#a)",
-        strokeWidth: "2.95px",
+        strokeWidth: "8.01px",
       }}
       transform="translate(-35834.883 -20556.51) scale(1.18581)"
     />
@@ -52,297 +52,171 @@ export const UniIcon = (props: SVGProps) => (
       style={{
         fill: "none",
         stroke: "url(#b)",
-        strokeWidth: "3.08px",
+        strokeWidth: "8.44px",
       }}
-      transform="matrix(1.13783 0 0 1.13783 -34363.174 -19703.32)"
+      transform="matrix(1.12593 0 0 1.12593 -33998.115 -19491.653)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#c)",
-        strokeWidth: "3.17px",
+        strokeWidth: "8.89px",
       }}
-      transform="matrix(1.10367 0 0 1.10367 -33315.288 -19095.83)"
+      transform="matrix(1.06908 0 0 1.06908 -32254.13 -18480.631)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#d)",
-        strokeWidth: "3.27px",
+        strokeWidth: "9.36px",
       }}
-      transform="matrix(1.07054 0 0 1.07054 -32298.886 -18506.6)"
+      transform="matrix(1.0151 0 0 1.0151 -30598.19 -17520.6)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#e)",
-        strokeWidth: "3.37px",
+        strokeWidth: "9.86px",
       }}
-      transform="translate(-31312.967 -17935.04) scale(1.0384)"
+      transform="translate(-29025.828 -16609.067) scale(.96384)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#f)",
-        strokeWidth: "3.47px",
+        strokeWidth: "10.38px",
       }}
-      transform="matrix(1.00722 0 0 1.00722 -30356.663 -17380.674)"
+      transform="matrix(.91517 0 0 .91517 -27532.908 -15743.545)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#g)",
-        strokeWidth: "3.58px",
+        strokeWidth: "10.93px",
       }}
-      transform="matrix(.97698 0 0 .97698 -29429.107 -16842.909)"
+      transform="matrix(.86896 0 0 .86896 -26115.361 -14921.778)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#h)",
-        strokeWidth: "3.69px",
+        strokeWidth: "11.51px",
       }}
-      transform="matrix(.94765 0 0 .94765 -28529.367 -16321.271)"
+      transform="translate(-24769.386 -14141.515) scale(.82508)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#i)",
-        strokeWidth: "3.81px",
+        strokeWidth: "12.13px",
       }}
-      transform="matrix(.9192 0 0 .9192 -27656.64 -15815.286)"
+      transform="matrix(.78342 0 0 .78342 -23491.379 -13400.621)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#j)",
-        strokeWidth: "3.93px",
+        strokeWidth: "12.77px",
       }}
-      transform="matrix(.8916 0 0 .8916 -26810.128 -15324.598)"
+      transform="matrix(.74386 0 0 .74386 -22277.94 -12697.08)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#k)",
-        strokeWidth: "4.05px",
+        strokeWidth: "13.45px",
       }}
-      transform="matrix(.86484 0 0 .86484 -25989.028 -14848.495)"
+      transform="matrix(.7063 0 0 .7063 -21125.732 -12029.113)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#l)",
-        strokeWidth: "4.17px",
+        strokeWidth: "14.17px",
       }}
-      transform="matrix(.83888 0 0 .83887 -25192.542 -14386.74)"
+      transform="matrix(.67063 0 0 .67063 -20031.756 -11394.907)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#m)",
-        strokeWidth: "4.3px",
+        strokeWidth: "14.92px",
       }}
-      transform="matrix(.81369 0 0 .81369 -24420.001 -13938.979)"
+      transform="matrix(.63677 0 0 .63677 -18992.942 -10792.705)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#n)",
-        strokeWidth: "4.43px",
+        strokeWidth: "15.71px",
       }}
-      transform="translate(-23670.607 -13504.498) scale(.78926)"
+      transform="matrix(.60462 0 0 .60461 -18006.622 -10220.907)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#o)",
-        strokeWidth: "4.57px",
+        strokeWidth: "16.55px",
       }}
-      transform="matrix(.76556 0 0 .76556 -22943.757 -13083.061)"
+      transform="matrix(.57409 0 0 .57409 -17070.129 -9677.972)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#p)",
-        strokeWidth: "4.71px",
+        strokeWidth: "17.43px",
       }}
-      transform="matrix(.74258 0 0 .74258 -22238.719 -12674.431)"
+      transform="matrix(.5451 0 0 .5451 -16180.927 -9162.465)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#q)",
-        strokeWidth: "4.86px",
+        strokeWidth: "18.35px",
       }}
-      transform="matrix(.72029 0 0 .72029 -21554.892 -12277.896)"
+      transform="translate(-15336.549 -8672.986) scale(.51757)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#r)",
-        strokeWidth: "5.01px",
+        strokeWidth: "19.33px",
       }}
-      transform="translate(-20891.542 -11893.362) scale(.69866)"
+      transform="matrix(.49144 0 0 .49144 -14534.86 -8208.22)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#s)",
-        strokeWidth: "5.16px",
+        strokeWidth: "20.36px",
       }}
-      transform="matrix(.67768 0 0 .67769 -20248.137 -11520.353)"
+      transform="translate(-13773.658 -7766.92) scale(.46662)"
     />
     <path
       d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
       style={{
         fill: "none",
         stroke: "url(#t)",
-        strokeWidth: "5.32px",
+        strokeWidth: "21.44px",
       }}
-      transform="translate(-19624.008 -11158.539) scale(.65734)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#u)",
-        strokeWidth: "5.49px",
-      }}
-      transform="matrix(.6376 0 0 .6376 -19018.622 -10807.587)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#v)",
-        strokeWidth: "5.66px",
-      }}
-      transform="matrix(.61846 0 0 .61846 -18431.446 -10467.176)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#w)",
-        strokeWidth: "5.83px",
-      }}
-      transform="matrix(.5999 0 0 .5999 -17861.88 -10136.976)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#x)",
-        strokeWidth: "6.01px",
-      }}
-      transform="matrix(.58189 0 0 .58189 -17309.388 -9816.688)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#y)",
-        strokeWidth: "6.2px",
-      }}
-      transform="matrix(.56442 0 0 .56442 -16773.506 -9506.03)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#z)",
-        strokeWidth: "6.39px",
-      }}
-      transform="translate(-16253.765 -9204.692) scale(.54747)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#A)",
-        strokeWidth: "6.59px",
-      }}
-      transform="matrix(.53103 0 0 .53103 -15749.566 -8912.39)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#B)",
-        strokeWidth: "6.79px",
-      }}
-      transform="matrix(.5151 0 0 .5151 -15260.509 -8628.874)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#C)",
-        strokeWidth: "7.01px",
-      }}
-      transform="matrix(.49963 0 0 .49963 -14786.125 -8353.873)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#D)",
-        strokeWidth: "7.22px",
-      }}
-      transform="matrix(.48463 0 0 .48463 -14326.016 -8087.125)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#E)",
-        strokeWidth: "7.45px",
-      }}
-      transform="matrix(.47008 0 0 .47008 -13879.714 -7828.381)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#F)",
-        strokeWidth: "7.68px",
-      }}
-      transform="matrix(.45596 0 0 .45597 -13446.753 -7577.405)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#G)",
-        strokeWidth: "7.91px",
-      }}
-      transform="matrix(.44228 0 0 .44228 -13026.865 -7333.97)"
-    />
-    <path
-      d="M30694.2 17515.1c-90.7 19.5-195.9-88.6-321.8-31.4-133.5 60.6-152.2 199.7-146.4 411 5.4 200.9 145.4 240.5 230.5 234.9 97.7-6.3 133.3-70.7 238.9-82.4 167-18.4 234.3 41.9 323.9-15.3 70.4-45 111-188.6 105.4-304.8-6.1-126.4-62.7-243.4-150.2-280.7-91.3-38.9-191.5 49.5-280.3 68.7Z"
-      style={{
-        fill: "none",
-        stroke: "url(#H)",
-        strokeWidth: "8.16px",
-      }}
-      transform="matrix(.429 0 0 .429 -12619.584 -7097.84)"
+      transform="matrix(.44306 0 0 .44306 -13050.878 -7347.903)"
     />
     <defs>
       <linearGradient
@@ -1202,636 +1076,6 @@ export const UniIcon = (props: SVGProps) => (
       </linearGradient>
       <linearGradient
         id="t"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="u"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="v"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="w"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="x"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="y"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="z"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="A"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="B"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="C"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="D"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="E"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="F"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="G"
-        x1={0}
-        x2={1}
-        y1={0}
-        y2={0}
-        gradientTransform="matrix(880.672 0 0 727.111 30225.1 17783.3)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop
-          offset={0}
-          style={{
-            stopColor: "#e9d69c",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.16}
-          style={{
-            stopColor: "#db8840",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.33}
-          style={{
-            stopColor: "#d76f22",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={0.62}
-          style={{
-            stopColor: "#edf6fa",
-            stopOpacity: 1,
-          }}
-        />
-        <stop
-          offset={1}
-          style={{
-            stopColor: "#ecc384",
-            stopOpacity: 1,
-          }}
-        />
-      </linearGradient>
-      <linearGradient
-        id="H"
         x1={0}
         x2={1}
         y1={0}

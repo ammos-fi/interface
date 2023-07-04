@@ -11,7 +11,7 @@ import { useIsDarkMode } from "theme/components/ThemeToggle";
 import { DiscordIcon, GithubIcon, TwitterIcon } from "./Icons";
 import darkUnicornImgSrc from "./images/unicornEmbossDark.png";
 import lightUnicornImgSrc from "./images/unicornEmbossLight.png";
-import { UniIcon } from "../../nft/components/icons";
+import { AmmosIcon } from "../../nft/components/icons";
 import * as styles from "../NavBar/style.css";
 
 const Footer = styled.div`
@@ -127,7 +127,7 @@ const LogoSectionContent = () => {
   const isDarkMode = useIsDarkMode();
   return (
     <>
-      <UniIcon width="100" height="100" data-testid="uniswap-logo" />
+      <AmmosIcon width="100" height="100" data-testid="uniswap-logo" />
       <SocialLinks>
         <SocialLink
           href={`${links.discord}`}

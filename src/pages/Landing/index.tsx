@@ -194,6 +194,10 @@ const FeaturesContainer = styled.div`
   padding: 50px;
   background: black;
   box-shadow: 0 0 100px 100px black;
+
+  @media screen and (max-width: ${BREAKPOINTS.md}px) {
+    padding: 20px;
+  }
 `;
 
 const FeaturesWrapper = styled.div`
@@ -251,6 +255,11 @@ const FeatureBox = ({ title, content }: { title: string; content: string }) => {
     &:hover {
       height: calc(100% - 5px);
       transition: all 0.3s ease-in-out;
+    }
+
+    @media screen and (max-width: ${BREAKPOINTS.md}px) {
+      align-items: center;
+      padding: 20px;
     }
   `;
 
@@ -321,6 +330,11 @@ const FeatureBoxContainer = ({ children }: { children?: React.ReactNode }) => {
     grid-template-rows: 1fr 1fr;
     gap: 20px 20px;
     grid-auto-flow: row;
+
+    @media screen and (max-width: ${BREAKPOINTS.md}px) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
   `;
 
   const Arrow = () => {
@@ -432,7 +446,7 @@ const LinksContainer = () => {
     grid-template-areas:
       "left right-top"
       "left right-bottom"
-      "bottom bottom";
+      "left bottom";
 
     .bottom {
       grid-area: bottom;
@@ -454,6 +468,17 @@ const LinksContainer = () => {
       padding: 20px;
       background: #121212;
       border-radius: 20px;
+    }
+
+    @media screen and (max-width: ${BREAKPOINTS.md}px) {
+      padding: 100px 20px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+        "left"
+        "right-top"
+        "right-bottom"
+        "bottom";
     }
   `;
 
@@ -515,7 +540,7 @@ export default function Landing() {
   const scale = useTransform(scrollY, [0, 800], [1, 1.5]) as any;
   const opacity = useTransform(scrollY, [0, 800], [1, 0]) as any;
 
-  const [showContent, setShowContent] = useState(false);
+  const [showContent, setShowContent] = useState(true);
   const selectedWallet = useAppSelector((state) => state.user.selectedWallet);
   const navigate = useNavigate();
 
@@ -532,63 +557,69 @@ export default function Landing() {
   }, [navigate, selectedWallet, accountDrawerOpen]);
 
   return (
-    <Trace page={InterfacePageName.LANDING_PAGE} shouldLogImpression>
-      <PageContainer data-testid="landing-page">
-        {showContent && (
-          <>
-            <HeroBG scale={scale} opacity={opacity} />
-            <ContentContainer isDarkMode={isDarkMode}>
-              <HeroContainer opacity={opacity}>
-                <TitleText isDarkMode={isDarkMode}>
-                  <Trans>
-                    Bring your
-                    <br />
-                    liquidity to life.
-                  </Trans>
-                </TitleText>
-                <SubTextContainer>
-                  <SubText>
-                    <Trans>
-                      Ultra capital-efficient decentralised exchange (DEX) with
-                      low fees, built on Mantle Layer 2.
-                    </Trans>
-                  </SubText>
-                </SubTextContainer>
-                <ActionsContainer>
-                  <TraceEvent
-                    events={[BrowserEvent.onClick]}
-                    name={SharedEventName.ELEMENT_CLICKED}
-                    element={InterfaceElementName.CONTINUE_BUTTON}
-                  >
-                    <ButtonCTA as={Link} to="/swap">
-                      <ButtonCTAText>
-                        <Trans>Get started</Trans>
-                      </ButtonCTAText>
-                    </ButtonCTA>
-                  </TraceEvent>
-                </ActionsContainer>
-              </HeroContainer>
-            </ContentContainer>
-            <FeaturesContainer>
-              <FeaturesWrapper>
-                <FeaturesTitle>Ultra Capital-Efficient AMM</FeaturesTitle>
-                <FeatureBoxContainer>
-                  {Features.map((feature) => (
-                    <FeatureBox
-                      title={feature.title}
-                      content={feature.content}
-                    />
-                  ))}
-                </FeatureBoxContainer>
-              </FeaturesWrapper>
-            </FeaturesContainer>
-            <LinksContainer></LinksContainer>
-            <AboutContentContainer isDarkMode={isDarkMode}>
-              <AboutFooter />
-            </AboutContentContainer>
-          </>
-        )}
-      </PageContainer>
-    </Trace>
+    <PageContainer data-testid="landing-page">
+      <>
+        <HeroBG scale={scale} opacity={opacity} />
+        <ContentContainer isDarkMode={true}>
+          <HeroContainer opacity={opacity}>
+            <TitleText isDarkMode={true}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5, duration: 1 }}
+              >
+                Bring your
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 1 }}
+              >
+                liquidity to life.
+              </motion.div>
+            </TitleText>
+            <SubTextContainer>
+              <SubText>
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.7, duration: 0.6 }}
+                >
+                  Ultra capital-efficient decentralised exchange with low fees,
+                  built on Mantle Layer 2.
+                </motion.div>
+              </SubText>
+            </SubTextContainer>
+            <ActionsContainer>
+              <motion.div
+                initial={{ opacity: 0, y: -50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1, duration: 1 }}
+              >
+                <ButtonCTA as={Link} to="/swap">
+                  <ButtonCTAText>
+                    <Trans>Get started</Trans>
+                  </ButtonCTAText>
+                </ButtonCTA>
+              </motion.div>
+            </ActionsContainer>
+          </HeroContainer>
+        </ContentContainer>
+        <FeaturesContainer>
+          <FeaturesWrapper>
+            <FeaturesTitle>Ultra Capital-Efficient AMM</FeaturesTitle>
+            <FeatureBoxContainer>
+              {Features.map((feature) => (
+                <FeatureBox title={feature.title} content={feature.content} />
+              ))}
+            </FeatureBoxContainer>
+          </FeaturesWrapper>
+        </FeaturesContainer>
+        <LinksContainer></LinksContainer>
+        <AboutContentContainer isDarkMode={isDarkMode}>
+          <AboutFooter />
+        </AboutContentContainer>
+      </>
+    </PageContainer>
   );
 }

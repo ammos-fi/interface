@@ -17,6 +17,7 @@ export default function usePayWithAnyTokenSwap(
   const hasInputAmount = !!trade && !!trade.inputAmount && trade.inputAmount.currency.isToken
   const hasAllowance = !!allowedSlippage && !!allowance
 
+
   useEffect(() => {
     if (!hasRoutes || !hasInputAmount || !hasAllowance) {
       setTokenTradeInput(undefined)
