@@ -362,7 +362,6 @@ const FeatureBox = ({
   return (
     <Outer
       onMouseEnter={() => setHoveredBox(index)}
-      onMouseLeave={() => setHoveredBox(null)}
     >
       <LinkContainer to={link}>
         <Inner>
