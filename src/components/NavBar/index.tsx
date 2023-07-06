@@ -29,6 +29,7 @@ import { ChainSelector } from "./ChainSelector";
 import { MenuDropdown } from "./MenuDropdown";
 import { SearchBar } from "./SearchBar";
 import * as styles from "./style.css";
+import { vars } from "../../nft/css/sprinkles.css";
 
 const Nav = styled.nav`
   padding: ${({ theme }) => `${theme.navVerticalPad}px 12px`};
@@ -57,7 +58,20 @@ const MenuItem = ({
       to={href}
       className={isActive ? styles.activeMenuItem : styles.menuItem}
       id={id}
-      style={{ textDecoration: "none" }}
+      style={{
+        marginTop: "4px",
+        padding: "8px 14px",
+        borderRadius: "12",
+        transition: "250",
+        height: "min",
+        width: "full",
+        textAlign: "center",
+        display: "flex",
+        alignItems: "center",
+        gap: "4",
+        lineHeight: "24px",
+        textDecoration: "none",
+      }}
       data-testid={dataTestId}
     >
       {children}
@@ -77,32 +91,13 @@ export const PageTabs = () => {
 
   return (
     <>
-      <MenuItem href="/swap" isActive={pathname.startsWith("/swap")}>
-        <Trans>Swap</Trans>
-      </MenuItem>
-      <MenuItem
-        href={`/tokens/${chainName.toLowerCase()}`}
-        isActive={pathname.startsWith("/tokens")}
-      >
-        <Trans>Tokens</Trans>
-      </MenuItem>
-      <Box display={{ sm: "flex", lg: "none", xxl: "flex" }} width="full">
-        <MenuItem
-          href="/pools"
-          dataTestId="pool-nav-link"
-          isActive={isPoolActive}
-        >
-          <Trans>Pools</Trans>
-        </MenuItem>
-      </Box>
       <a
+        style={{ textDecoration: "none", color: "inherit", marginLeft: "10px" }}
         href={"https://ammos.gitbook.io/ammos-docs/"}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <MenuItem href={""}>
-          <Trans>Docs</Trans>
-        </MenuItem>
+        <Trans>Docs</Trans>
       </a>
     </>
   );
@@ -150,14 +145,6 @@ const Navbar = ({ blur }: { blur: boolean }) => {
               <PageTabs />
             </Row>
           </Box>
-          <Box
-            className={styles.searchContainer}
-            {...(isNavSearchInputVisible && {
-              display: "flex",
-            })}
-          >
-            <SearchBar />
-          </Box>
           <Box className={styles.rightSideContainer}>
             <Row gap="12">
               <Box
@@ -168,11 +155,6 @@ const Navbar = ({ blur }: { blur: boolean }) => {
               </Box>
               {isNftPage && sellPageState !== ProfilePageStateType.LISTING && (
                 <Bag />
-              )}
-              {!isNftPage && (
-                <Box display={{ sm: "none", lg: "flex" }}>
-                  <ChainSelector />
-                </Box>
               )}
 
               <Web3Status />

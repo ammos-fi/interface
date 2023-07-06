@@ -320,7 +320,7 @@ const FeatureBox = ({
   `;
 
   const LearnMore = ({ children }: { children?: React.ReactNode }) => {
-    const LinkButton = styled(NativeLink)`
+    const LinkButton = styled.a`
       color: #fbbf24;
       opacity: 0.6;
       font-size: 14px;
@@ -337,7 +337,7 @@ const FeatureBox = ({
 
     return (
       <Outer>
-        <LinkButton to={link}>
+        <LinkButton href={link}>
           {children}
           <ChevronIcon size={20} />
         </LinkButton>
@@ -345,7 +345,7 @@ const FeatureBox = ({
     );
   };
 
-  const LinkContainer = styled(NativeLink)`
+  const LinkContainer = styled.a`
     text-decoration: none;
     transition: opacity 0.3s ease-in-out;
 
@@ -360,10 +360,8 @@ const FeatureBox = ({
   `;
 
   return (
-    <Outer
-      onMouseEnter={() => setHoveredBox(index)}
-    >
-      <LinkContainer to={link}>
+    <Outer onMouseEnter={() => setHoveredBox(index)}>
+      <LinkContainer href={link}>
         <Inner>
           <Title>{title}</Title>
           <Content>{content}</Content>
@@ -534,25 +532,25 @@ const Features = [
     title: "Optimised Liquidity Provision",
     content:
       "Pools have an extremely capital efficient setup to create minimum slippage and maximum amount of fees generated for LPs, cleverly designed to let you save money while trading and earn elevated yield passively.",
-    link: "/about",
+    link: "https://ammos.gitbook.io/ammos-docs/features/optimised-liquidity-provision",
   },
   {
     title: "Limit Orders",
     content:
       "Trade the non-custodial way with limit orders on Ammos like a pro. Set limit orders to get into a position, reduce trading losses and take profits. No more regretful trades from unpredictable price volatility.",
-    link: "/about",
+    link: "https://ammos.gitbook.io/ammos-docs/features/limit-orders",
   },
   {
     title: "Managed Liquidity Positions (MLP)",
     content:
       "MLP gives users the option to delegate LP liquidity management to another natively-integrated protocol with a variety of strategies of choice. Without the need for active management, liquidity will be actively moved around the price, generating more yield for the liquidity providers and lower fees for traders.",
-    link: "/about",
+    link: "https://ammos.gitbook.io/ammos-docs/features/managed-liquidity-provision",
   },
   {
     title: "Bribe for Boosted $AMMOS Yield",
     content:
       "Bootstrap onchain liquidity with the native bribing market. $veAMMOS holders will play the hidden hand to direct future $AMMOS emission to different pools, helping new projects attract and maintain their token trading activities.",
-    link: "/about",
+    link: "https://ammos.gitbook.io/ammos-docs/features/bribing-markets",
   },
 ];
 
@@ -730,7 +728,7 @@ const LinksContainer = () => {
     align-items: center;
   `;
 
-  const LinkContainer = styled(NativeLink)`
+  const LinkContainer = styled.a`
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     color: white;
@@ -747,10 +745,13 @@ const LinksContainer = () => {
   `;
 
   return (
-    <div style={{ position: "relative", width: "100%", overflow: "hidden" }}>
+    <div
+      style={{ position: "relative", width: "100%", overflow: "hidden" }}
+      id={"links"}
+    >
       <LinksBG />
       <Outer>
-        <LinkContainer to={links.docs} className={"left linkbox"}>
+        <LinkContainer href={links.docs} className={"left linkbox"}>
           <h3>Learn more about Ammos</h3>
           <LinkTitleWrapper>
             <h1>
@@ -759,7 +760,7 @@ const LinksContainer = () => {
             </h1>
           </LinkTitleWrapper>
         </LinkContainer>
-        <LinkContainer to={links.twitter} className={"right-top linkbox"}>
+        <LinkContainer href={links.twitter} className={"right-top linkbox"}>
           <h3>Twitter</h3>
           <LinkTitleWrapper>
             <h1>
@@ -768,7 +769,7 @@ const LinksContainer = () => {
             </h1>
           </LinkTitleWrapper>
         </LinkContainer>
-        <LinkContainer to={links.discord} className={"right-bottom linkbox"}>
+        <LinkContainer href={links.discord} className={"right-bottom linkbox"}>
           <h3>Join the community</h3>
           <LinkTitleWrapper>
             <h1>
@@ -777,7 +778,7 @@ const LinksContainer = () => {
             </h1>
           </LinkTitleWrapper>
         </LinkContainer>
-        <LinkContainer to={links.telegram} className={"bottom linkbox"}>
+        <LinkContainer href={links.telegram} className={"bottom linkbox"}>
           <h3>Chat about Ammos</h3>
           <LinkTitleWrapper>
             <h1>
@@ -923,9 +924,16 @@ export default function Landing() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 1.6, duration: 1 }}
               >
-                <ButtonCTA as={Link} to="/swap">
+                <ButtonCTA
+                  as={Link}
+                  to="#links"
+                  onClick={() => {
+                    const element = document.getElementById("links");
+                    if (element) element.scrollIntoView();
+                  }}
+                >
                   <ButtonCTAText>
-                    <Trans>Get started</Trans>
+                    <Trans>Join Communities</Trans>
                   </ButtonCTAText>
                 </ButtonCTA>
               </motion.div>
