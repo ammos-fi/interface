@@ -55,7 +55,6 @@ export default function NotFound() {
               <Trans>Page not found!</Trans>
             </Paragraph>
           </Container>
-          <Image src={isDarkMode ? darkImage : lightImage} alt="Liluni" />
         </Header>
         <SmallButtonPrimary as={Link} to="/">
           <Trans>Oops, take me back to Swap</Trans>
