@@ -151,11 +151,6 @@ const Navbar = ({ blur }: { blur: boolean }) => {
                 onClick={handleUniIconClick}
               />
             </Box>
-            {!isNftPage && (
-              <Box display={{ sm: "flex", lg: "none" }}>
-                <ChainSelector leftAlign={true} />
-              </Box>
-            )}
             <Row display={{ sm: "none", lg: "flex" }}>
               <PageTabs />
             </Row>
