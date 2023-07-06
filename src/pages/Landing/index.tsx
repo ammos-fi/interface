@@ -102,6 +102,7 @@ const SubText = styled.div`
 `;
 
 const SubTextContainer = styled.div`
+  padding: 0 30px;
   display: flex;
   justify-content: center;
 `;
@@ -884,7 +885,7 @@ export default function Landing() {
   return (
     <PageContainer data-testid="landing-page">
       <>
-        <HeroBG scale={scale} opacity={opacity} />
+        <HeroBG scale={scrollY ? scale : 1} opacity={scrollY ? opacity : 1} />
         <ContentContainer isDarkMode={true}>
           <HeroContainer opacity={opacity}>
             <TitleText isDarkMode={true}>
@@ -926,7 +927,7 @@ export default function Landing() {
                   to="#links"
                   onClick={() => {
                     const element = document.getElementById("links");
-                    if (element) element.scrollIntoView({behavior: "smooth"});
+                    if (element) element.scrollIntoView({ behavior: "smooth" });
                   }}
                 >
                   <ButtonCTAText>
