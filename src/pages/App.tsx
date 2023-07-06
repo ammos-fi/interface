@@ -262,55 +262,6 @@ export default function App() {
                   <Route path="migrate/v2" element={<MigrateV2 />} />
                   <Route path="migrate/v2/:address" element={<MigrateV2Pair />} />
 
-                  {!shouldDisableNFTRoutes && (
-                    <>
-                      <Route
-                        path="/nfts"
-                        element={
-                          <Suspense fallback={null}>
-                            <NftExplore />
-                          </Suspense>
-                        }
-                      />
-
-                      <Route
-                        path="/nfts/asset/:contractAddress/:tokenId"
-                        element={
-                          <Suspense fallback={null}>
-                            <Asset />
-                          </Suspense>
-                        }
-                      />
-
-                      <Route
-                        path="/nfts/profile"
-                        element={
-                          <Suspense fallback={null}>
-                            <Profile />
-                          </Suspense>
-                        }
-                      />
-
-                      <Route
-                        path="/nfts/collection/:contractAddress"
-                        element={
-                          <Suspense fallback={null}>
-                            <Collection />
-                          </Suspense>
-                        }
-                      />
-
-                      <Route
-                        path="/nfts/collection/:contractAddress/activity"
-                        element={
-                          <Suspense fallback={null}>
-                            <Collection />
-                          </Suspense>
-                        }
-                      />
-                    </>
-                  )}
-
                   <Route path="*" element={<Navigate to="/not-found" replace />} />
                   <Route path="/not-found" element={<NotFound />} />
                 </Routes>
@@ -319,9 +270,9 @@ export default function App() {
               )}
             </Suspense>
           </BodyWrapper>
-          <MobileBottomBar>
-            <PageTabs />
-          </MobileBottomBar>
+          {/*<MobileBottomBar>*/}
+          {/*  <PageTabs />*/}
+          {/*</MobileBottomBar>*/}
         </StatsigProvider>
       </Trace>
     </ErrorBoundary>

@@ -120,7 +120,7 @@ const links = {
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/AmmosFinance",
-  docs: "https://ammos.fi",
+  docs: "https://ammos.gitbook.io/ammos-docs/",
 };
 
 const LogoSectionContent = () => {

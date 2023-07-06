@@ -1,4 +1,5 @@
 import { Trans } from "@lingui/macro";
+import { Link as NativeLink } from "react-router-dom";
 import { useWeb3React } from "@web3-react/core";
 import { useAccountDrawer } from "components/AccountDrawer";
 import Web3Status from "components/Web3Status";
@@ -94,9 +95,15 @@ export const PageTabs = () => {
           <Trans>Pools</Trans>
         </MenuItem>
       </Box>
-      <Box marginY={{ sm: '4', md: 'unset' }}>
-        <MenuDropdown />
-      </Box>
+      <a
+        href={"https://ammos.gitbook.io/ammos-docs/"}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <MenuItem href={""}>
+          <Trans>Docs</Trans>
+        </MenuItem>
+      </a>
     </>
   );
 };
