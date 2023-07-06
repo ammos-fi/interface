@@ -31,6 +31,7 @@ import { TransactionDetails } from "../../state/transactions/types";
 import { ButtonSecondary } from "../Button";
 import StatusIcon from "../Identicon/StatusIcon";
 import { RowBetween } from "../Row";
+import { BREAKPOINTS } from "../../theme";
 
 // https://stackoverflow.com/a/31617326
 const FULL_BORDER_RADIUS = 9999;
@@ -140,6 +141,10 @@ const StyledConnectButton = styled.button`
   font-size: 16px;
   padding: 10px 12px;
   color: inherit;
+
+  @media screen and (max-width: ${BREAKPOINTS.md}px) {
+    font-size: 14px;
+  }
 `;
 
 function Web3StatusInner() {

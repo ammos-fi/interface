@@ -8,7 +8,7 @@ import styled from "styled-components/macro";
 import { BREAKPOINTS, ExternalLink, StyledRouterLink } from "theme";
 import { useIsDarkMode } from "theme/components/ThemeToggle";
 
-import { DiscordIcon, GithubIcon, TwitterIcon } from "./Icons";
+import { DiscordIcon, GithubIcon, TelegramIcon, TwitterIcon } from "./Icons";
 import darkUnicornImgSrc from "./images/unicornEmbossDark.png";
 import lightUnicornImgSrc from "./images/unicornEmbossLight.png";
 import { AmmosIcon } from "../../nft/components/icons";
@@ -59,10 +59,13 @@ const StyledLogo = styled.img`
 `;
 
 const SocialLinks = styled.div`
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
+  justify-content: center;
   gap: 20px;
-  margin: 20px 0 0 0;
+  margin: 20px auto 0 auto;
 `;
 
 const SocialLink = styled.a`
@@ -116,7 +119,7 @@ const Copyright = styled.span`
 `;
 
 const links = {
-  discord: "https://discord.gg/z8dsDRPD",
+  discord: "https://discord.gg/eYjZHqrx",
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/AmmosFinance",
@@ -125,38 +128,60 @@ const links = {
 
 const LogoSectionContent = () => {
   const isDarkMode = useIsDarkMode();
+
+  const LogoSectionBottomWrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @media screen and (max-width: ${BREAKPOINTS.md}px) {
+      flex-direction: row;
+    }
+  `;
+
   return (
     <>
-      <AmmosIcon width="100" height="100" data-testid="uniswap-logo" />
-      <SocialLinks>
-        <SocialLink
-          href={`${links.discord}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <DiscordIcon size={32} />
-        </SocialLink>
-        <TraceEvent
-          events={[BrowserEvent.onClick]}
-          name={SharedEventName.ELEMENT_CLICKED}
-          element={InterfaceElementName.TWITTER_LINK}
-        >
-          <SocialLink
-            href={`${links.twitter}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <TwitterIcon size={32} />
-          </SocialLink>
-        </TraceEvent>
-        <SocialLink
-          href={`${links.github}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <GithubIcon size={32} />
-        </SocialLink>
-      </SocialLinks>
+      <LogoSectionBottomWrapper>
+        <AmmosIcon width="100" height="100" data-testid="uniswap-logo" />
+        <div style={{ width: "fit-content" }}>
+          <SocialLinks>
+            <SocialLink
+              href={`${links.discord}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <DiscordIcon size={32} />
+            </SocialLink>
+            <TraceEvent
+              events={[BrowserEvent.onClick]}
+              name={SharedEventName.ELEMENT_CLICKED}
+              element={InterfaceElementName.TWITTER_LINK}
+            >
+              <SocialLink
+                href={`${links.twitter}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TwitterIcon size={32} />
+              </SocialLink>
+            </TraceEvent>
+            <SocialLink
+              href={`${links.github}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubIcon size={32} />
+            </SocialLink>
+            <SocialLink
+              href={`${links.telegram}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <TelegramIcon size={32} />
+            </SocialLink>
+          </SocialLinks>
+        </div>
+      </LogoSectionBottomWrapper>
       <Copyright>© {new Date().getFullYear()} Ammos Finance</Copyright>
     </>
   );

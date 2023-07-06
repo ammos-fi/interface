@@ -89,16 +89,31 @@ export const PageTabs = () => {
 
   const shouldDisableNFTRoutes = useAtomValue(shouldDisableNFTRoutesAtom);
 
+  const LinkWrapper = styled.a`
+    text-decoration: none;
+    color: inherit;
+    margin-left: 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 250ms;
+    opacity: 0.8;
+
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transition: 250ms;
+      opacity: 1;
+    }
+  `;
+
   return (
     <>
-      <a
-        style={{ textDecoration: "none", color: "inherit", marginLeft: "10px" }}
+      <LinkWrapper
         href={"https://ammos.gitbook.io/ammos-docs/"}
         target="_blank"
         rel="noopener noreferrer"
       >
         <Trans>Docs</Trans>
-      </a>
+      </LinkWrapper>
     </>
   );
 };
@@ -150,12 +165,7 @@ const Navbar = ({ blur }: { blur: boolean }) => {
               <Box
                 position="relative"
                 display={isNavSearchInputVisible ? "none" : { sm: "flex" }}
-              >
-                <SearchBar />
-              </Box>
-              {isNftPage && sellPageState !== ProfilePageStateType.LISTING && (
-                <Bag />
-              )}
+              ></Box>
 
               <Web3Status />
             </Row>

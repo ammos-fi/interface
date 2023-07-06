@@ -24,7 +24,7 @@ import { TRANSITION_DURATIONS } from "theme/styles";
 import { Z_INDEX } from "theme/zIndex";
 
 const links = {
-  discord: "https://discord.gg/z8dsDRPD",
+  discord: "https://discord.gg/eYjZHqrx",
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/AmmosFinance",
@@ -592,7 +592,7 @@ const HeroContainer = ({
 const LinksContainer = () => {
   const Outer = styled.div`
     margin: 0 auto;
-    padding: 200px 50px;
+    padding: 200px 100px;
     z-index: ${Z_INDEX.under_dropdown};
     position: relative;
     width: 100%;
@@ -604,7 +604,7 @@ const LinksContainer = () => {
     grid-template-areas:
       "left right-top"
       "left right-bottom"
-      "left bottom";
+      "bottom bottom";
 
     .bottom {
       grid-area: bottom;
@@ -678,7 +678,7 @@ const LinksContainer = () => {
     }
 
     @media screen and (max-width: ${BREAKPOINTS.md}px) {
-      padding: 100px 20px;
+      padding: 200px 20px;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-template-areas:
@@ -760,11 +760,11 @@ const LinksContainer = () => {
             </h1>
           </LinkTitleWrapper>
         </LinkContainer>
-        <LinkContainer href={links.twitter} className={"right-top linkbox"}>
-          <h3>Twitter</h3>
+        <LinkContainer href={links.telegram} className={"right-top linkbox"}>
+          <h3>Chat about Ammos</h3>
           <LinkTitleWrapper>
             <h1>
-              Follow us
+              Join Telegram
               <ChevronIcon size={40} />
             </h1>
           </LinkTitleWrapper>
@@ -778,11 +778,11 @@ const LinksContainer = () => {
             </h1>
           </LinkTitleWrapper>
         </LinkContainer>
-        <LinkContainer href={links.telegram} className={"bottom linkbox"}>
-          <h3>Chat about Ammos</h3>
+        <LinkContainer href={links.twitter} className={"bottom linkbox"}>
+          <h3>Twitter</h3>
           <LinkTitleWrapper>
             <h1>
-              Join Telegram
+              Follow us
               <ChevronIcon size={40} />
             </h1>
           </LinkTitleWrapper>
@@ -868,9 +868,6 @@ export default function Landing() {
   const selectedWallet = useAppSelector((state) => state.user.selectedWallet);
   const navigate = useNavigate();
   const [hoveredBox, setHoveredBox] = useState<number | null>(null);
-  useEffect(() => {
-    console.log(hoveredBox);
-  }, [hoveredBox]);
 
   const [accountDrawerOpen] = useAccountDrawer();
   useEffect(() => {
@@ -929,7 +926,7 @@ export default function Landing() {
                   to="#links"
                   onClick={() => {
                     const element = document.getElementById("links");
-                    if (element) element.scrollIntoView();
+                    if (element) element.scrollIntoView({behavior: "smooth"});
                   }}
                 >
                   <ButtonCTAText>
