@@ -119,7 +119,7 @@ const Copyright = styled.span`
 `;
 
 const links = {
-  discord: "https://discord.gg/eYjZHqrx",
+  discord: "https://discord.com/invite/ammosfinance",
   twitter: "https://twitter.com/ammosfinance",
   github: "https://github.com/ammos-fi",
   telegram: "https://t.me/AmmosFinance",
